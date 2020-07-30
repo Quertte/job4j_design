@@ -37,17 +37,4 @@ public class MatrixIt implements Iterator<Integer> {
         }
         return data[row][column++];
     }
-
-    public static void main(String[] args) {
-        int[][] in = {{}};
-        System.out.println(in.length);
-
-        for (int i = 0; i < in.length; i++) {
-            for (int j = 0; j < in[i].length; j++) {
-                System.out.println(in[i].length);
-            }
-        }
-        //System.out.println(in[1][0]);
-    }
-
 }
